@@ -615,7 +615,7 @@ label.error{
   top:0;
   width: 39.47vmin;
   height: 40.7vmin;
-  padding: 4.8vmin 2em 4.8vmin;
+  padding: 74px 0 0 65px;
   background-color: transparent;
   text-align: center;
   -webkit-transition: all 0.3s;
@@ -797,7 +797,7 @@ label.error{
   top:0;
   left:0;
   width: 100%;
-  padding:5.9vmin 0 0;
+  padding:3.7vmin 0 0;
 }
 
 .navbar-desctop .margin-right-container {
