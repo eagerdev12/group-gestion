@@ -92,7 +92,7 @@ body{
   font-size: 1em;
   line-height: 1.65;
   color: rgba(255,255,255,0.5);
-  background-color: #272727;
+  background-color: #191919;
 }
 
 ::-webkit-scrollbar{
@@ -798,6 +798,11 @@ label.error{
   left:0;
   width: 100%;
   padding:3.7vmin 0 0;
+}
+
+.trans-btn {
+  border: 0.2em solid #c5a47e !important;
+  background: transparent !important;
 }
 
 .navbar-desctop .margin-right-container {
