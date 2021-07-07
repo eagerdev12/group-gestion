@@ -260,7 +260,7 @@
 		itemsTablet:[768,2],
 		itemsDesktopSmall:[979,2],
 		itemsDesktop:[1250,3],
-		items:4,
+		items:3,
 		pagination:false,
 		navigation:true,
 		slideSpeed:700,

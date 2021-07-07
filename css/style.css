@@ -642,7 +642,7 @@ label.error{
   position: absolute;
   z-index: -1;
   bottom: -0.4em;
-  right:-0.38em;
+  right: 0.62em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 8.75em;
@@ -782,7 +782,9 @@ label.error{
   text-decoration: none;
 }
 
-
+.d-flex {
+  display: flex;
+}
 
 /* 2.3 Navbar Desctop */
 
@@ -798,6 +800,25 @@ label.error{
   padding:5.9vmin 0 0;
 }
 
+.navbar-desctop .margin-right-container {
+  margin-right: 100px !important;
+  margin-left: auto;
+}
+
+@media (min-width: 1600px) {
+  .margin-right-container {
+    width: 1600px !important;
+  }
+}
+
+.sante-img {
+  position: absolute;
+  z-index: 4;
+  right: 10%;
+  bottom: 0px;
+  height: 72%;
+}
+
 .navbar-desctop .brand{
   display: none;
   position: relative;
@@ -805,6 +826,20 @@ label.error{
   font-size: 1.6em;
 }
 
+.tp-revslider-mainul {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+}
+/* .tp-bgimg {
+  background-image: none !important;
+} */
 .navbar-desctop-menu{
   float: right;
   font-family: 'Oswald', sans-serif;
@@ -813,6 +848,10 @@ label.error{
   letter-spacing: 0.32em;
   text-transform: uppercase;
   margin-bottom: 0;
+}
+
+.navbar-desctop-menu-lang{
+  font-size: 0.71em !important;
 }
 
 .navbar-desctop-menu li{
